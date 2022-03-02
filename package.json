@@ -1,0 +1,26 @@
+{
+	"name": "intranet-enterprice",
+	"version": "0.0.0",
+	"description": "Tool for team Comunications. Meain Features: 1-Chats 2-Groups 3-DirectMessages",
+	"main": "index.js",
+	"scripts": {
+		"create": "npm create vite@latest client -- --template react-ts",
+		"start": "cd client && npm i && npm run dev",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ArlandMv/intranet-enterprice.git"
+	},
+	"keywords": [
+		"react",
+		"scss",
+		"styled components"
+	],
+	"author": "Arland Michelena Villegas <arlandmichelenav@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ArlandMv/intranet-enterprice/issues"
+	},
+	"homepage": "https://github.com/ArlandMv/intranet-enterprice#readme"
+}

@@ -1,12 +1,13 @@
 {
 	"name": "intranet-enterprice",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Tool for team Comunications. Meain Features: 1-Chats 2-Groups 3-DirectMessages",
 	"main": "index.js",
 	"scripts": {
 		"create": "npm create vite@latest client -- --template react-ts",
 		"start": "cd client && npm i && npm run dev",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"release": "standard-version"
 	},
 	"repository": {
 		"type": "git",
@@ -22,5 +23,8 @@
 	"bugs": {
 		"url": "https://github.com/ArlandMv/intranet-enterprice/issues"
 	},
-	"homepage": "https://github.com/ArlandMv/intranet-enterprice#readme"
+	"homepage": "https://github.com/ArlandMv/intranet-enterprice#readme",
+	"dependencies": {
+		"standard-version": "^9.3.2"
+	}
 }
